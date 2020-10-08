@@ -13,7 +13,7 @@ const Photo = ({file, count}) => {
         <View style={styles.container}>
             <Image style={styles.image} source={file} />
             <TouchableOpacity onPress={increment}>
-                <Text>{like} Curir</Text>
+                <Text>{like} LIKE</Text>
             </TouchableOpacity>
 
         </View>
